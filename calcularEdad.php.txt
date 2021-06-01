@@ -1,3 +1,4 @@
+<?php
 function calcular_edad($fecha_nac){
 $fecha_nac = strtotime($fecha_nac);
 $edad = date('Y', $fecha_nac);
@@ -8,3 +9,4 @@ $edad = date('Y', $fecha_nac);
  }
 return date('Y') - $edad;
 }
+?>
